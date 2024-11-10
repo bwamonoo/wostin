@@ -1,0 +1,14 @@
+# Ignore environment-specific config files
+.env.local
+.env.* # For environment-specific variations of the .env file
+
+# Ignore other sensitive or unnecessary files
+.env.development
+.env.production
+
+# Ignore logs
+application/logs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
