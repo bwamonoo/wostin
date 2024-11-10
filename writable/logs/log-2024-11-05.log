@@ -1,0 +1,985 @@
+CRITICAL - 2024-11-05 06:41:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\UsersController.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:41:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\UsersController.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:41:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\UsersController.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:42:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\UsersController.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:42:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\UsersController.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:47:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:47:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:47:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:47:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 06:59:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 07:43:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:18:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:24:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:24:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:25:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:25:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:25:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:25:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:25:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:26:18 --> Error: Call to undefined function form_open()
+[Method: GET, Route: users/login]
+in APPPATH\Views\users\login.php on line 6.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/login', [], true)
+ 4 APPPATH\Controllers\Users.php(42): view('users/login')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 08:29:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/register.php"
+[Method: GET, Route: users/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/register.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 3 APPPATH\Controllers\Users.php(27): view('users/register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-05 08:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 08:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 08:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 08:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 08:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 08:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-05 09:39:41 --> ErrorException: Undefined variable $current_url
+[Method: POST, Route: users/register]
+in APPPATH\Views\users\register.php on line 16.
+ 1 APPPATH\Views\users\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $current_url', 'C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 5 APPPATH\Controllers\Users.php(28): view('users/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-05 09:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-05 09:43:15 --> ErrorException: Undefined variable $current_url
+[Method: GET, Route: users/register]
+in APPPATH\Views\users\register.php on line 16.
+ 1 APPPATH\Views\users\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $current_url', 'C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 5 APPPATH\Controllers\Users.php(29): view('users/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-05 09:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-05 09:43:19 --> ErrorException: Undefined variable $current_url
+[Method: POST, Route: users/register]
+in APPPATH\Views\users\register.php on line 16.
+ 1 APPPATH\Views\users\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $current_url', 'C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/register', [], true)
+ 5 APPPATH\Controllers\Users.php(29): view('users/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-05 09:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 09:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 13:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 13:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 13:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 13:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 13:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 13:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 14:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 14:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 14:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 14:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 14:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 14:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 14:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-05 15:00:07 --> Error: Call to a member function latest() on null
+[Method: POST, Route: core/run-migrations]
+in APPPATH\Controllers\Migrate.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:06:03 --> Error: Class "CodeIgniter\Database\Migrations\MigrationRunner" not found
+[Method: POST, Route: core/run-migrations]
+in APPPATH\Controllers\Migrate.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-05 15:08:17 --> mysqli_sql_exception: Table 'users' already exists in C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\wostin\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\wostin\app\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+#6 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\wostin\app\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\xampp\htdocs\wostin\system\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+#9 C:\xampp\htdocs\wostin\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#10 C:\xampp\htdocs\wostin\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wostin\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\wostin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\wostin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-05 15:08:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'users' already exists
+[Method: POST, Route: core/run-migrations]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 2 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 3 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 4 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 5 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:08:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'users' already exists
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 5 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 6 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 7 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:08:17 --> [Caused by] mysqli_sql_exception: Table 'users' already exists
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-05 15:09:08 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\wostin\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\wostin\app\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+#6 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\wostin\app\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\xampp\htdocs\wostin\system\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+#9 C:\xampp\htdocs\wostin\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#10 C:\xampp\htdocs\wostin\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wostin\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\wostin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\wostin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-05 15:09:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Invalid default value for 'created_at'
+[Method: POST, Route: core/run-migrations]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 2 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 3 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 4 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 5 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:09:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Invalid default value for 'created_at'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 5 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 6 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 7 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:09:08 --> [Caused by] mysqli_sql_exception: Invalid default value for 'created_at'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-05 15:09:15 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\wostin\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\wostin\app\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+#6 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\wostin\app\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\xampp\htdocs\wostin\system\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+#9 C:\xampp\htdocs\wostin\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#10 C:\xampp\htdocs\wostin\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wostin\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\wostin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\wostin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-05 15:09:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Invalid default value for 'created_at'
+[Method: POST, Route: core/run-migrations]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 2 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 3 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 4 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 5 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:09:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Invalid default value for 'created_at'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 5 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 6 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 7 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:09:15 --> [Caused by] mysqli_sql_exception: Invalid default value for 'created_at'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`phone_number` VARCHAR(15) NOT NULL,
+	`location` VARCHAR(255) NOT NULL,
+	`email_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`phone_verified` BOOLEAN NOT NULL DEFAULT 0,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\',
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2024-11-04-143954_CreateWostinTables.php(25): CodeIgniter\Database\Forge->createTable('users')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(867): App\Database\Migrations\CreateWostinTables->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-05 15:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-05 15:49:25 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'wostin' in C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'wostin', 3306, '', 0)
+#1 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\wostin\app\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\xampp\htdocs\wostin\system\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+#9 C:\xampp\htdocs\wostin\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#10 C:\xampp\htdocs\wostin\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wostin\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\wostin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\wostin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'wostin' in C:\xampp\htdocs\wostin\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\wostin\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\wostin\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\wostin\app\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+#7 C:\xampp\htdocs\wostin\system\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+#8 C:\xampp\htdocs\wostin\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#9 C:\xampp\htdocs\wostin\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wostin\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\wostin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\wostin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-05 15:49:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'wostin'
+[Method: POST, Route: core/run-migrations]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FROM `wostin`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+ 4 SYSTEMPATH\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+ 5 SYSTEMPATH\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+ 6 APPPATH\Controllers\Migrate.php(25): CodeIgniter\Database\MigrationRunner->latest()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Migrate->runMigrations()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-05 16:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 16:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 16:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 20:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 21:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 22:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-05 23:19:04 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: users/verify-email]
+in APPPATH\Views\users\verify_email.php on line 9.
+ 1 APPPATH\Views\users\verify_email.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\verify_email.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wostin\\app\\Views\\users\\verify_email.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/verify_email', [], true)
+ 5 APPPATH\Controllers\Users.php(77): view('users/verify_email')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->verifyEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-05 23:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 23:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
