@@ -193,6 +193,7 @@ class Users extends Controller {
                     'user_id' => $user['id'],
                     'role' => $user['user_group_id'],
                     'email' => $user['email'],
+                    'name' => $user['name'],
                     'isLoggedIn' => true
                 ]);
 
@@ -212,6 +213,7 @@ class Users extends Controller {
         session()->remove('user_id');
         session()->remove('role');
         session()->remove('email');
+        session()->remove('name');
         session()->remove('isLoggedIn');
         session()->destroy(); // Destroys the entire session
         return redirect()->to('/users/login');

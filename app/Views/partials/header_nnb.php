@@ -19,8 +19,6 @@
 </head>
 <body>
 
-<?= $this->include('partials/navbar') ?>
-
 <div class="content container my-4">
     <?= $this->renderSection('content') ?>
 </div>

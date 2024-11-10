@@ -1,34 +1,55 @@
-<?= $this->extend('partials/header'); ?>
+<?= $this->extend('partials/header_nnb'); ?>
 <?= $this->section('content'); ?>
 
-<h1>User Login</h1>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm rounded p-4">
+                <!-- Wostin Logo -->
+                <div class="text-center mb-4">
+                    <img src="<?= base_url('assets/images/wostin-logo.png'); ?>" alt="Wostin Logo" class="img-fluid" style="max-width: 150px;">
+                </div>
 
-<?php if (session()->getFlashdata('success')) : ?>
-    <div class="alert alert-success">
-        <?= session()->getFlashdata('success') ?>
-    </div>
-<?php endif; ?>
+                <h2 class="text-center text-primary fw-bold mb-4">User Login</h2>
 
-<?php if (session()->getFlashdata('error')) : ?>
-        <div class="alert alert-danger">
-            <?= session()->getFlashdata('error') ?>
+                <!-- Display flash messages -->
+                <?php if (session()->getFlashdata('success')): ?>
+                    <div class="alert alert-success mb-4">
+                        <?= session()->getFlashdata('success') ?>
+                    </div>
+                <?php endif; ?>
+
+                <?php if (session()->getFlashdata('error')): ?>
+                    <div class="alert alert-danger mb-4">
+                        <?= session()->getFlashdata('error') ?>
+                    </div>
+                <?php endif; ?>
+
+                <!-- Login Form -->
+                <?= form_open('users/login') ?>
+                    <div class="form-group mb-4">
+                        <?= form_label('Email:', 'email', ['class' => 'form-label']) ?>
+                        <?= form_input(['type' => 'email', 'name' => 'email', 'id' => 'email', 'class' => 'form-control shadow-sm', 'required' => 'required', 'placeholder' => 'Enter your email']); ?>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <?= form_label('Password:', 'password', ['class' => 'form-label']) ?>
+                        <?= form_password(['name' => 'password', 'id' => 'password', 'class' => 'form-control shadow-sm', 'required' => 'required', 'placeholder' => 'Enter your password']); ?>
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-4">
+                        <?= form_submit(['class' => 'btn btn-primary px-4', 'value' => 'Login']) ?>
+                    </div>
+                <?= form_close() ?>
+
+                <p class="text-center mt-4">
+                    Don't have an account? 
+                    <a href="<?= site_url('users/register'); ?>">Register</a>
+                </p>
+            </div>
         </div>
-<?php endif; ?>
-
-<?= form_open('users/login'); ?>
-    <?= csrf_field(); ?>
-    <div>
-        <?= form_label('Email:', 'email'); ?>
-        <?= form_input(['type' => 'email', 'name' => 'email', 'id' => 'email', 'required' => 'required']); ?>
     </div>
-    <div>
-        <?= form_label('Password:', 'password'); ?>
-        <?= form_password(['name' => 'password', 'id' => 'password', 'required' => 'required']); ?>
-    </div>
-    <button type="submit">Login</button>
-<?= form_close(); ?>
-
-<a href="<?= site_url('users/register'); ?>">Don't have an account? Register</a>
+</div>
 
 <?= $this->endSection(); ?>
 <?= $this->include('partials/footer'); ?>
