@@ -6,8 +6,8 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    public string $fromEmail  = '';
-    public string $fromName   = '';
+    public string $fromEmail  = 'benjaminamonoowilberforce8@gmail.com'; // Your Gmail address
+    public string $fromName   = 'Wostin'; // Name displayed in the sender field
     public string $recipients = '';
 
     /**
@@ -18,7 +18,7 @@ class Email extends BaseConfig
     /**
      * The mail sending protocol: mail, sendmail, smtp
      */
-    public string $protocol = 'mail';
+    public string $protocol = 'smtp';
 
     /**
      * The server path to Sendmail.
@@ -28,27 +28,27 @@ class Email extends BaseConfig
     /**
      * SMTP Server Hostname
      */
-    public string $SMTPHost = '';
+    public string $SMTPHost = 'smtp.gmail.com';
 
     /**
      * SMTP Username
      */
-    public string $SMTPUser = '';
+    public string $SMTPUser = 'benjaminamonoowilberforce8@gmail.com'; // Your Gmail address
 
     /**
      * SMTP Password
      */
-    public string $SMTPPass = '';
+    public string $SMTPPass = 'liff jtko xzyf meqc'; // App password generated in Gmail
 
     /**
      * SMTP Port
      */
-    public int $SMTPPort = 25;
+    public int $SMTPPort = 587; // Gmail uses port 587 for TLS
 
     /**
      * SMTP Timeout (in seconds)
      */
-    public int $SMTPTimeout = 5;
+    public int $SMTPTimeout = 10;
 
     /**
      * Enable persistent SMTP connections
@@ -77,7 +77,7 @@ class Email extends BaseConfig
     /**
      * Type of mail, either 'text' or 'html'
      */
-    public string $mailType = 'text';
+    public string $mailType = 'html'; // Set to 'html' for rich email content
 
     /**
      * Character set (utf-8, iso-8859-1, etc.)
@@ -87,7 +87,7 @@ class Email extends BaseConfig
     /**
      * Whether to validate the email address
      */
-    public bool $validate = false;
+    public bool $validate = true;
 
     /**
      * Email Priority. 1 = highest. 5 = lowest. 3 = normal

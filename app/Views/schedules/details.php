@@ -1,7 +1,7 @@
 <?= $this->extend('partials/header'); ?>
 <?= $this->section('content'); ?>
 
-<div class="container my-5 p-4" style="background-color: #f5f5f5;">
+<div class="container my-5 p-4" >
     <h1 class="text-center text-primary fw-bold mb-5">Schedule Details</h1>
 
     <div class="card border-0 shadow-sm mx-auto" style="max-width: 700px;">
@@ -17,8 +17,8 @@
 
             <h2 class="h5 text-primary fw-bold mb-3">Bins</h2>
             <div class="table-responsive">
-                <table class="table table-striped table-hover">
-                    <thead class="table-primary">
+                <table class="table table-hover">
+                    <thead class="table-light">
                         <tr>
                             <th>Bin Size</th>
                             <th>Waste Type</th>

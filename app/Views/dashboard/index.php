@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 
-<div class="container my-5 p-5 rounded shadow" style="background-color: #f3f3f3;">
+<div class="container my-5 p-5 " >
     <h1 class="text-center text-primary fw-bold mb-5">Welcome back, <?= esc(session()->get('name')) ?>!</h1>
 
     <!-- New Schedule Button -->

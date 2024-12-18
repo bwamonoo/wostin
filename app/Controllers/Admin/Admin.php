@@ -32,7 +32,7 @@ class Admin extends BaseController {
         $data = [
             'totalUsers' => $this->usersModel->countAllResults(),
             'pendingSchedules' => $this->schedulesModel->where('status', 'pending')->countAllResults(),
-            'approvedSchedules' => $this->schedulesModel->where('status', 'approved')->countAllResults(),
+            'unapprovedSchedules' => $this->schedulesModel->where('status', 'awaiting_approval')->countAllResults(),
             'completedCollections' => $this->schedulesModel->where('status', 'completed')->countAllResults(),
             'totalIncome' => $this->schedulesModel->selectSum('total_cost')->get()->getRow()->total_cost,
             

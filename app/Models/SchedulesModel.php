@@ -13,7 +13,7 @@ class SchedulesModel extends Model {
     protected $validationRules = [
         'user_id'         => 'required|is_natural_no_zero',
         'collection_date' => 'required|valid_date',
-        'status'          => 'in_list[pending,approved,completed,cancelled,awaiting_approval,rejected]',
+        'status'          => 'in_list[pending,completed,cancelled,awaiting_approval,rejected]',
         'bin_quantity'      => 'required|integer|greater_than[0]',
         'total_cost'          => 'required|decimal',
     ];

@@ -1,14 +1,18 @@
 <?= $this->extend('partials/header'); ?>
 <?= $this->section('content'); ?>
 
-<div class="container my-5 p-5 rounded shadow" style="background-color: #f9f9f9;">
+<div class="container my-5 p-5 " >
     <h1 class="text-center text-primary fw-bold mb-5">
         <?= isset($schedule) && $schedule ? 'Edit Schedule' : 'Create Schedule' ?>
     </h1>
 
     <?php if (session()->getFlashdata('errors')): ?>
-        <div class="alert alert-danger mb-4">
-            <?= session()->getFlashdata('errors') ?>
+        <div class="alert alert-danger p-2">
+            <ul class="mb-0">
+                <?php foreach (session()->getFlashdata('errors') as $error): ?>
+                    <li><?= esc($error) ?></li>
+                <?php endforeach; ?>
+            </ul>
         </div>
     <?php endif; ?>
 
@@ -18,7 +22,7 @@
     <?= form_open($formAction, ['method' => 'post']); ?>
 
     <div class="form-group mb-4">
-        <label for="collection_date" class="form-label">Collection Date</label>
+        <label for="collection_date" class="form-label" style="color: #808080">Collection Date</label>
         <input id="collection_date" name="collection_date" type="text" class="form-control shadow-sm" value="<?= set_value('collection_date', $schedule['collection_date'] ?? '') ?>" required>
     </div>
 
@@ -30,7 +34,7 @@
             <?php foreach ($scheduleBins as $index => $bin): ?>
                 <div class="bin-entry mb-3 p-2 border rounded bg-light shadow-sm" style="border-left: 5px solid #007bff;">
                     <div class="form-group mb-2">
-                        <label for="bin_size" class="form-label small">Bin Size</label>
+                        <label for="bin_size" class="form-label small" style="color: #808080">Bin Size</label>
                         <select name="bins[<?= $index ?>][bin_size]" class="form-control form-control-sm bin-size" required>
                             <?php foreach ($binSizes as $size): ?>
                                 <option value="<?= esc($size['id']); ?>" data-multiplier="<?= esc($size['size_multiplier']); ?>"
@@ -42,7 +46,7 @@
                     </div>
                     
                     <div class="form-group mb-2">
-                        <label for="waste_type" class="form-label small">Waste Type</label>
+                        <label for="waste_type" class="form-label small" style="color: #808080">Waste Type</label>
                         <select name="bins[<?= $index ?>][waste_type]" class="form-control form-control-sm waste-type" required>
                             <?php foreach ($wasteTypes as $type): ?>
                                 <option value="<?= esc($type['id']); ?>" data-cost="<?= esc($type['cost']); ?>"
@@ -54,7 +58,7 @@
                     </div>
 
                     <div class="form-group mb-2">
-                        <label for="quantity" class="form-label small">Quantity</label>
+                        <label for="quantity" class="form-label small" style="color: #808080">Quantity</label>
                         <?= form_input('bins['.$index.'][quantity]', set_value('bins['.$index.'][quantity]', $bin['quantity']), [
                             'type' => 'number',
                             'class' => 'form-control form-control-sm quantity',
@@ -63,7 +67,7 @@
                         ]); ?>
                     </div>
 
-                    <div class="mb-2 small">
+                    <div class="mb-2 small" style="color: #808080">
                         <strong>Cost: </strong>
                         <span class="bin-cost"><?= number_format($bin['cost'], 2); ?></span>
                     </div>
@@ -72,7 +76,7 @@
         <?php else: ?>
             <div class="bin-entry mb-3 p-2 border rounded bg-light shadow-sm" style="border-left: 5px solid #007bff;">
                 <div class="form-group mb-2">
-                    <label for="bin_size" class="form-label small">Bin Size</label>
+                    <label for="bin_size" class="form-label small" style="color: #808080">Bin Size</label>
                     <select name="bins[0][bin_size]" class="form-control form-control-sm bin-size" required>
                         <?php foreach ($binSizes as $size): ?>
                             <option value="<?= esc($size['id']); ?>" data-multiplier="<?= esc($size['size_multiplier']); ?>">
@@ -83,7 +87,7 @@
                 </div>
                 
                 <div class="form-group mb-2">
-                    <label for="waste_type" class="form-label small">Waste Type</label>
+                    <label for="waste_type" class="form-label small" style="color: #808080">Waste Type</label>
                     <select name="bins[0][waste_type]" class="form-control form-control-sm waste-type" required>
                         <?php foreach ($wasteTypes as $type): ?>
                             <option value="<?= esc($type['id']); ?>" data-cost="<?= esc($type['cost']); ?>">
@@ -94,7 +98,7 @@
                 </div>
 
                 <div class="form-group mb-2">
-                    <label for="quantity" class="form-label small">Quantity</label>
+                    <label for="quantity" class="form-label small" style="color: #808080">Quantity</label>
                     <?= form_input('bins[0][quantity]', 1, [
                         'type' => 'number',
                         'class' => 'form-control form-control-sm quantity',
@@ -103,7 +107,7 @@
                     ]); ?>
                 </div>
 
-                <div class="mb-2 small">
+                <div class="mb-2 small" style="color: #808080">
                     <strong>Cost: </strong>
                     <span class="bin-cost">0.00</span>
                 </div>
@@ -112,7 +116,7 @@
     </div>
 
     <button type="button" id="add-bin" class="btn btn-outline-primary shadow-sm mb-4">Add Another Bin</button>
-    <div class="mb-4">
+    <div class="mb-4" style="color: #808080">
         <strong>Total Cost:</strong>
         <span id="total-cost">0.00</span>
     </div>

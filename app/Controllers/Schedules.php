@@ -131,7 +131,7 @@ class Schedules extends Controller
                 // var_dump(session()->get('user_id'));
                 // exit();
 
-                return redirect()->back()->with('error', $e->getMessage());
+                return redirect()->back()->with('errors', $e->getMessage());
             }
         }
     
@@ -229,8 +229,8 @@ class Schedules extends Controller
         }
     
         $schedule = $this->schedulesModel->find($id);
-        if (!$schedule || !in_array($schedule['status'], ['pending', 'editable'])) {
-            return redirect()->to('/schedules')->with('error', 'Schedule cannot be edited.');
+        if (!$schedule || !in_array($schedule['status'], ['pending', 'awaiting_approval'])) {
+            return redirect()->to('/schedules')->with('error', 'You cannot edit a completed schedule.');
         }
     
         $data['schedule'] = $schedule;

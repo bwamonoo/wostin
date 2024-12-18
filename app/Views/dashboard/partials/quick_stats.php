@@ -12,7 +12,7 @@
         <div class="card shadow-sm border-0" style="background-color: #fff3e6;">
             <div class="card-body py-4">
                 <h5 class="card-title text-success fw-bold">Total Amount Spent</h5>
-                <p class="display-6 text-dark">$<?= esc($totalAmountSpent) ?></p>
+                <p class="display-6 text-dark">GHS <?= esc($totalAmountSpent) ?></p>
             </div>
         </div>
     </div>

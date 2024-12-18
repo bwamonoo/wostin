@@ -1,7 +1,13 @@
 <?= $this->extend('partials/header'); ?>
 <?= $this->section('content'); ?>
 
-<div class="container my-5 p-4" style="background-color: #f5f5f5;">
+<div class="container my-5 p-4" >
+    <?php if (session()->getFlashdata('error')): ?>
+            <div class="alert alert-danger mb-4">
+                <?= session()->getFlashdata('error') ?>
+            </div>
+    <?php endif; ?>
+
     <h1 class="text-center text-primary fw-bold mb-5">Manage Your Schedules</h1>
 
     <!-- Filter Form -->

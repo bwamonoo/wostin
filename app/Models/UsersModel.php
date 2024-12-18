@@ -12,18 +12,25 @@ class UsersModel extends Model {
     protected $validationRules = [
         'name'        => 'required|min_length[3]|max_length[255]',
         'email'       => 'required|valid_email|is_unique[users.email]',
-        'phone_number' => 'required|numeric|min_length[10]|max_length[15]',
+        // 'phone_number' => 'required|numeric|min_length[10]|max_length[15]',
         'password'    => 'required|min_length[8]',
         'location'    => 'required|max_length[255]'
     ];
 
     // Callbacks
-    protected $beforeInsert = ['hashPassword'];
-    protected $beforeUpdate = ['hashPassword'];
+    protected $beforeInsert = ['hashPassword', 'capitalizeName'];
+    protected $beforeUpdate = ['hashPassword', 'capitalizeName'];
 
     protected function hashPassword(array $data) {
         if (isset($data['data']['password'])) {
             $data['data']['password'] = password_hash($data['data']['password'], PASSWORD_BCRYPT);
+        }
+        return $data;
+    }
+
+    protected function capitalizeName(array $data) {
+        if (isset($data['data']['name'])) {
+            $data['data']['name'] = ucwords(strtolower($data['data']['name'])); // Capitalize each word
         }
         return $data;
     }

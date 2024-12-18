@@ -32,8 +32,8 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card shadow-sm border-0" style="background-color: #f4f0f8;">
                 <div class="card-body">
-                    <h5 class="card-title text-success" style="font-size: 1.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Approved Schedules</h5>
-                    <p class="card-text text-dark" style="font-size: 1.25rem;"><?= $approvedSchedules ?></p>
+                    <h5 class="card-title text-success" style="font-size: 1.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Schedules Awaiting Approval</h5>
+                    <p class="card-text text-dark" style="font-size: 1.25rem;"><?= $unapprovedSchedules ?></p>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
             <div class="card shadow-sm border-0" style="background-color: #f8f0f4;">
                 <div class="card-body">
                     <h5 class="card-title text-danger" style="font-size: 1.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Total Income</h5>
-                    <p class="card-text text-dark" style="font-size: 1.25rem;">$<?= number_format($totalIncome, 2) ?></p>
+                    <p class="card-text text-dark" style="font-size: 1.25rem;">GHS <?= number_format($totalIncome, 2) ?></p>
                 </div>
             </div>
         </div>

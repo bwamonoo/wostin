@@ -6,9 +6,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link <?= (uri_string() == '/') ? 'active fw-bold' : '' ?>" href="<?= site_url('/') ?>">Home</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link <?= (uri_string() == 'dashboard') ? 'active fw-bold' : '' ?>" href="<?= site_url('dashboard') ?>">Dashboard</a>
                 </li>

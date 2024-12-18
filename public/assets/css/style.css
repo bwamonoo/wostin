@@ -1,5 +1,22 @@
 /* Custom styles for user pages */
+/* style.css */
+
+/* Apply the background image to the entire body */
+body {
+	background-image: url('../images/backgrounds/main-slider-1-2.jpg'); /* Path to the background image */
+	background-size: cover; /* Ensure the image covers the entire page */
+	background-repeat: no-repeat; /* Prevent the background from repeating */
+	background-attachment: fixed; /* Make it fixed while scrolling */
+	background-position: center center; /* Center the image */
+	color: #fff; /* Optional: Adjust text color for readability */
+}
+
+/* Style the content container for readability over the background */
 .content {
+	background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for readability */
+	padding: 20px; /* Add some padding for spacing */
+	border-radius: 8px; /* Rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
 	min-height: 80vh;
 }
 
@@ -17,3 +34,4 @@
 	font-size: 0.9rem;
 	color: #6c757d;
 }
+

@@ -36,7 +36,9 @@ class Users extends Controller {
             if ($this->usersModel->save($data)) {
                 $userId = $this->usersModel->insertID();
                 session()->set('user_id', $userId); // Store in session persistently
-                $this->sendVerificationCodes($userId);
+                $name = $this->request->getPost('name');
+                $email = $this->request->getPost('email');
+                $this->sendVerificationCodes($userId, $email, $name);
     
                 return redirect()->to('/users/verify-email');
             } else {
@@ -68,7 +70,7 @@ class Users extends Controller {
                     $this->usersModel->update($userId, ['email_verified' => true]);
                     $this->verificationCodesModel->delete($verificationCode['id']);
     
-                    return redirect()->to('/users/verify-phone')->with('success', 'Email verified successfully. Now verify your phone number.');
+                    return redirect()->to('/users/login')->with('success', 'Email verified successfully. You can now log in.');
                 } else {
                     return redirect()->back()->with('error', 'Invalid or expired verification code. Please try again.');
                 }
@@ -137,16 +139,40 @@ class Users extends Controller {
     }
 
     // Function to generate and send verification codes (generalized for email/phone)
-    private function sendVerificationCodes($userId, $type = null) {
+    private function sendVerificationCodes($userId, $recipientEmail, $recipientName, $type = null) {
         if ($type === 'email' || $type === null) {
             $emailCode = $this->generateVerificationCode();
             $this->verificationCodesModel->save([
                 'user_id' => $userId,
                 'code' => $emailCode,
                 'type' => 'email',
-                'expires_at' => date('Y-m-d H:i:s', strtotime('+15 minutes'))
+                'expires_at' => date('Y-m-d H:i:s', strtotime('+30 minutes'))
             ]);
+
             // Send the email verification code here
+            $email = \Config\Services::email();
+            $email->setFrom('benjaminamonoowilberforce8@gmail.com', 'Wostin');
+            $email->setTo($recipientEmail);
+            $email->setSubject('Your Verification Code');
+            
+            // Email Body
+            $emailBody = "
+                <p>Dear $recipientName,</p>
+                <p>Your verification code is: <strong>$emailCode</strong></p>
+                <p>Please enter this code on the verification page to complete your process.</p>
+                <p>If you did not request this, please ignore this email.</p>
+                <p>Thank you,<br>Wostin</p>
+            ";
+            $email->setMessage($emailBody);
+
+            // Step 3: Send the Email and Handle Response
+            if ($email->send()) {
+                return true; // Email sent successfully
+            } else {
+                // Log or debug email errors
+                log_message('error', $email->printDebugger(['headers', 'subject', 'body']));
+                return false; // Email failed to send
+            }
         }
 
         if ($type === 'phone' || $type === null) {
@@ -180,10 +206,10 @@ class Users extends Controller {
                     session()->set('user_id', $user['id']);
                     return redirect()->to('/users/verify-email')->with('error', 'Please verify your email to proceed.');
                 };
-                if (!$user['phone_verified']) {
-                    session()->set('user_id', $user['id']);
-                    return redirect()->to('/users/verify-phone')->with('error', 'Please verify your phone to proceed.');
-                };
+                // if (!$user['phone_verified']) {
+                //     session()->set('user_id', $user['id']);
+                //     return redirect()->to('/users/verify-phone')->with('error', 'Please verify your phone to proceed.');
+                // };
                 
                 // session()->set('user_id', $user['id']);
                 // return redirect()->to('/dashboard')->with('success', 'Logged in successfully.');
@@ -219,14 +245,25 @@ class Users extends Controller {
         return redirect()->to('/users/login');
     }
 
-    public function profile($action = 'view')
+    public function profile()
+    {
+        $userId = session()->get('user_id');
+        $user = $this->usersModel->find($userId);
+
+        return view('users/view_profile', ['user' => $user]);
+    }
+
+    public function edit_profile()
     {
         $userId = session()->get('user_id');
         $user = $this->usersModel->find($userId);
     
-        if ($action === 'edit' && $this->request->getMethod() === 'post') {
+        if ($this->request->getMethod() === 'POST') {
             // Update logic when form is submitted
-            $data = $this->request->getPost(['name', 'email', 'phone_number', 'location']);
+            $data = $this->request->getPost(['name', 'location']);
+
+            // var_dump($data);
+            // exit();
     
             if ($this->usersModel->update($userId, $data)) {
                 return redirect()->to('/users/profile')->with('success', 'Profile updated successfully.');
@@ -235,9 +272,7 @@ class Users extends Controller {
             }
         }
     
-        // Choose the view based on action parameter
-        $view = $action === 'edit' ? 'users/edit_profile' : 'users/view_profile';
-        return view($view, ['user' => $user]);
+        return view('users/edit_profile', ['user' => $user]);
     }
     
     

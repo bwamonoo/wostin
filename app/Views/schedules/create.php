@@ -8,7 +8,7 @@
 
     <!-- Collection Date Input -->
     <div class="mb-3">
-        <label for="collection_date" class="form-label">Collection Date</label>
+        <label for="collection_date" class="form-label text-dark" style="color: #808080">Collection Date</label>
         <?= form_input('collection_date', set_value('collection_date'), ['type' => 'date', 'required' => 'required', 'class' => 'form-control']); ?>
     </div>
 
@@ -17,7 +17,7 @@
         <div class="bin-entry mb-4 p-3 border rounded shadow-sm">
             <!-- Bin Size -->
             <div class="mb-3">
-                <label for="bin_size" class="form-label">Bin Size</label>
+                <label for="bin_size" class="form-label" style="color: #808080">Bin Size</label>
                 <select name="bins[0][bin_size]" class="form-select bin-size" required>
                     <?php foreach ($binSizes as $size): ?>
                         <option value="<?= esc($size['id']); ?>" data-multiplier="<?= esc($size['size_multiplier']); ?>">
@@ -29,7 +29,7 @@
             
             <!-- Waste Type -->
             <div class="mb-3">
-                <label for="waste_type" class="form-label">Waste Type</label>
+                <label for="waste_type" class="form-label text-dark" style="color: #808080">Waste Type</label>
                 <select name="bins[0][waste_type]" class="form-select waste-type" required>
                     <?php foreach ($wasteTypes as $type): ?>
                         <option value="<?= esc($type['id']); ?>" data-cost="<?= esc($type['cost']); ?>">
@@ -41,12 +41,12 @@
 
             <!-- Quantity -->
             <div class="mb-3">
-                <label for="quantity" class="form-label">Quantity</label>
+                <label for="quantity" class="form-label text-dark" style="color: #808080">Quantity</label>
                 <?= form_input('bins[0][quantity]', 1, ['type' => 'number', 'class' => 'form-control quantity', 'min' => '1', 'required' => 'required']); ?>
             </div>
 
             <!-- Bin Cost Display -->
-            <div class="mb-3">
+            <div class="mb-3 text-dark" style="color: #808080">
                 <strong>Cost: </strong>
                 <span class="bin-cost">0.00</span>
             </div>
@@ -57,7 +57,7 @@
     <button type="button" id="add-bin" class="btn btn-outline-primary mb-4">Add Another Bin</button>
 
     <!-- Total Cost Display -->
-    <div class="mb-4">
+    <div class="mb-4 text-dark">
         <strong>Total Cost:</strong>
         <span id="total-cost">0.00</span>
     </div>

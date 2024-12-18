@@ -37,7 +37,7 @@ $routes->group('users', function ($routes) {
 	$routes->get('logout', 'Users::logout', ['as' => 'users.logout']);
 
 	$routes->get('profile', 'Users::profile', ['filter' => 'auth']);
-	$routes->match(['get', 'post'], 'profile/edit', 'Users::profile/edit', ['filter' => 'auth']);
+	$routes->match(['get', 'post'], 'edit-profile', 'Users::edit_profile/$1', ['filter' => 'auth']);
 });
 
 
